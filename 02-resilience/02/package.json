@@ -1,0 +1,16 @@
+{
+  "name": "02-resilience-02",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start-app-a": "node index-A.js",
+    "start-app-b": "node index-B.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "got": "^11.7.0",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6"
+  }
+}
